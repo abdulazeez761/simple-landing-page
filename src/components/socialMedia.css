@@ -1,0 +1,49 @@
+.app__sociaMedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 5em; */
+}
+
+.app__sociaMedia__others {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.app__sociaMedia__others__content {
+    display: flex;
+    margin-left: 4em;
+    color: #696969;
+}
+
+.app__sociaMedia__twitter {
+    display: flex;
+    margin-right: 4em;
+
+}
+
+.linked-in .icon {
+    color: #A8ADAD;
+    width: 1.5em;
+    margin-top: -4px;
+    font-size: 30px;
+    margin-bottom: 1em;
+}
+
+.instagram .icon {
+    color: #FCB202;
+    width: 1.5em;
+    margin-top: -4px;
+    font-size: 30px;
+    margin-bottom: 1em;
+}
+
+.twitter .icon {
+    color: #FD7611;
+    width: 1.5em;
+    margin-top: -4px;
+    font-size: 30px;
+    margin-bottom: 1em;
+    margin-right: 5px;
+}
